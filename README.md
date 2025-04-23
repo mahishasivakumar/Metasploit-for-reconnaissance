@@ -61,8 +61,10 @@ Run the Python command to establish an HTTP server for file distribution.
 Share the .exe file with the target system via any medium or the HTTP server.
 Once the victim downloads and executes the file, the exploit is triggered.
 #### VICTIM DEVICE:
-![Screenshot 2025-04-20 180810](https://github.com/user-attachments/assets/af068e91-1f8d-46da-a39d-301bbb26ad63)
-![Screenshot 2025-04-20 180818](https://github.com/user-attachments/assets/430cbc1d-8f21-49ff-973c-da636cc66781)
+![Screenshot 2025-04-23 181424](https://github.com/user-attachments/assets/3a8c125d-5a8d-41c4-a5bd-e8456ef873b6)
+
+![Screenshot 2025-04-23 181449](https://github.com/user-attachments/assets/9929b876-f091-4152-8e35-ead5a6939dc7)
+
 
 
 ### Step 6: Establish a Connection
