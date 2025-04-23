@@ -87,7 +87,8 @@ For example, the screenshot command captures the victim’s screen and saves it 
 ![image](https://github.com/user-attachments/assets/5dd5faf8-b4bb-472b-9d96-748d2023b771)
 
 
-![Screenshot 2025-04-23 182919](https://github.com/user-attachments/assets/065c49d8-ae40-4266-a086-df8cd23cf92b)
+![Screenshot 2025-04-23 182951](https://github.com/user-attachments/assets/c9f0b316-85a4-498e-9e39-99f060f48cea)
+
 
 
 ### Step 9: Terminate the connection
