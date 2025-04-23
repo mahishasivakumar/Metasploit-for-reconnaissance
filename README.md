@@ -27,28 +27,34 @@ Open terminal and try execute some kali linux commands
 ### EXECUTION STEPS AND ITS OUTPUT:
 ### Step 1: Identify the Attacker’s IP Address
 Determine the IP address of the attacker's system.
-![Screenshot 2025-04-20 180657](https://github.com/user-attachments/assets/3cc0ca51-27ad-4f8d-a4d5-b8850a9e78c5)
+![Screenshot 2025-04-23 180046](https://github.com/user-attachments/assets/91914541-a505-4d69-8c11-84bdf5afe225)
+
 
 
 
 ### Step 2: Launch the Metasploit Console
 Invoke the msfconsole.
-![Screenshot 2025-04-20 180711](https://github.com/user-attachments/assets/b62b247e-5947-473f-8998-e165a4a374f6)
+![Screenshot 2025-04-23 180141](https://github.com/user-attachments/assets/20e42f09-5186-4a83-a652-b41949816c55)
+
 
 To view available commands, enter "?".
-![Screenshot 2025-04-20 180729](https://github.com/user-attachments/assets/b37e28e1-4329-4798-baa1-183b431f6667)
+![Screenshot 2025-04-23 180210](https://github.com/user-attachments/assets/4abd5ea2-24ca-43db-aafa-2026c0730e36)
+
 
 ### Step 3: Generate Payload Using msfvenom
 Execute the following command to generate a Windows Meterpreter reverse shell payload.
-![Screenshot 2025-04-20 180740](https://github.com/user-attachments/assets/1c2f2c6f-c0a2-4809-9431-1a8ed35a6777)
+![Screenshot 2025-04-23 180641](https://github.com/user-attachments/assets/73c9b3ab-cd74-4f2d-b96b-fea10cf226b5)
+
 
 
 ### Step 4: Set Up an HTTP Server
 Once the payload file is created, navigate to the home directory. Right-click and select "Open Terminal Here."
-![Screenshot 2025-04-20 180752](https://github.com/user-attachments/assets/ade33e0b-e0f8-44d8-94be-10fc158594d6)
+![Screenshot 2025-04-23 180706](https://github.com/user-attachments/assets/ea612a62-07c8-4ab9-a36b-62c6d560fe13)
+
 
 Run the Python command to establish an HTTP server for file distribution.
-![Screenshot 2025-04-20 180801](https://github.com/user-attachments/assets/d8d29079-66ba-4133-ad91-85fde6825af4)
+![Screenshot 2025-04-23 180813](https://github.com/user-attachments/assets/acdd015a-c895-404a-81ed-b42834674a9f)
+
 
 
 ### Step 5: Distribute the Payload
@@ -63,20 +69,24 @@ Once the victim downloads and executes the file, the exploit is triggered.
 On Kali Linux, reopen the terminal and invoke msfconsole.
 Follow the necessary steps to establish a connection with the victim’s device.
 
-![Screenshot 2025-04-20 180840](https://github.com/user-attachments/assets/1a57d5cb-4aa4-4ea1-8737-b5194d25963e)
+![Screenshot 2025-04-23 182853](https://github.com/user-attachments/assets/dcf9c2e4-8bf3-4ea1-b23c-287b5beaa6ea)
+
 
 Once exploited, a session is created, allowing remote access without the victim’s awareness.
 
 ### Step 7: Execute Commands on the Victim’s Device
 Use the help command to list available operations.
-![Screenshot 2025-04-20 180854](https://github.com/user-attachments/assets/d71861bd-2744-4b46-9349-46203cd92bb3)
+![Screenshot 2025-04-23 182919](https://github.com/user-attachments/assets/ef7f07cf-b80e-4a3b-ae68-6e29512b3f81)
+
 
 
 ### Step 8: Terminate the Connection
 For example, the screenshot command captures the victim’s screen and saves it in the attacker's home directory.
-![Screenshot 2025-04-20 180905](https://github.com/user-attachments/assets/547719b5-98a6-4971-8a55-c7d522571f31)
+![image](https://github.com/user-attachments/assets/5dd5faf8-b4bb-472b-9d96-748d2023b771)
 
-![Screenshot 2025-04-20 180913](https://github.com/user-attachments/assets/0027d562-d99b-4223-9b48-d25ad5a327e3)
+
+![Screenshot 2025-04-23 182919](https://github.com/user-attachments/assets/065c49d8-ae40-4266-a086-df8cd23cf92b)
+
 
 ### Step 9: Terminate the connection
 After completing intended operations, close the session securely.
