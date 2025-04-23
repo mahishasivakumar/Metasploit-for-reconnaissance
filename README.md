@@ -27,6 +27,7 @@ Open terminal and try execute some kali linux commands
 ### EXECUTION STEPS AND ITS OUTPUT:
 ### Step 1: Identify the Attacker’s IP Address
 Determine the IP address of the attacker's system.
+
 ![Screenshot 2025-04-23 180046](https://github.com/user-attachments/assets/91914541-a505-4d69-8c11-84bdf5afe225)
 
 
@@ -34,25 +35,30 @@ Determine the IP address of the attacker's system.
 
 ### Step 2: Launch the Metasploit Console
 Invoke the msfconsole.
+
 ![Screenshot 2025-04-23 180141](https://github.com/user-attachments/assets/20e42f09-5186-4a83-a652-b41949816c55)
 
 
 To view available commands, enter "?".
+
 ![Screenshot 2025-04-23 180210](https://github.com/user-attachments/assets/4abd5ea2-24ca-43db-aafa-2026c0730e36)
 
 
 ### Step 3: Generate Payload Using msfvenom
 Execute the following command to generate a Windows Meterpreter reverse shell payload.
+
 ![Screenshot 2025-04-23 180641](https://github.com/user-attachments/assets/73c9b3ab-cd74-4f2d-b96b-fea10cf226b5)
 
 
 
 ### Step 4: Set Up an HTTP Server
 Once the payload file is created, navigate to the home directory. Right-click and select "Open Terminal Here."
+
 ![Screenshot 2025-04-23 180706](https://github.com/user-attachments/assets/ea612a62-07c8-4ab9-a36b-62c6d560fe13)
 
 
 Run the Python command to establish an HTTP server for file distribution.
+
 ![Screenshot 2025-04-23 180813](https://github.com/user-attachments/assets/acdd015a-c895-404a-81ed-b42834674a9f)
 
 
